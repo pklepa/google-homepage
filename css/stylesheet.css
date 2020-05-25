@@ -1,0 +1,69 @@
+body {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 30px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    /* display: block; */
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Arial;
+    font-size: 13px;
+    text-align: center;
+    text-decoration-line: none;
+    line-height: 28px;
+    padding: 15px;
+}
+#g-apps {
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -130px -30px;
+    opacity: .55;
+}
+
+#g-apps:hover {
+    opacity: 1;
+}
+
+li button {
+    position: relative;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+#login-button {
+    color: seashell;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    outline: none;
+    padding: 0 12px;
+    margin-left: 20px;
+    line-height: 28px;
+    border-radius: 2px;
+}
+
+.main-body
+
+.footer {
+    font-size: 13px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}

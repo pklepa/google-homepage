@@ -1,47 +1,8 @@
 <!DOCTYPE html>
 <html>
 
-<style>
-    body {
-        font-size: 13px;
-        font-family: Arial, sans-serif;
-    }
-
-    .header {
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 30px;
-    }
-
-    a {
-        color: rgba(0, 0, 0, 0.87);
-        text-decoration-line: none;
-    }
-
-    a:hover {
-        text-decoration-line: underline;
-    }
-
-    #login-button {
-        color: seashell;
-        font-weight: bold;
-        border: 1px solid #4285f4;
-        background: #4285f4;
-        outline: none;
-        padding: 0 12px 0 12px;
-        border-radius: 2px;
-    }
-
-    .footer {
-        font-size: 13px;
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-    }
-</style>
-
 <head>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen" />
     <title>Google Remade</title>
 </head>
 <body>
@@ -54,16 +15,17 @@
                 <a href="#">Imagens</a>
             </li>
             <li>
-                <a href="#">Apps</a>
+                <a id="g-apps" href="#" title="Google Apps"></a>
             </li>
             <li>
                 <button id="login-button">Fazer Login</button>
             </li>
-        </ul>
-        
+        </ul>        
     </div>
-    <div>
+
+    <div class="main-body">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <input type="text" title="Pesquisar">
     </div>
 
 
