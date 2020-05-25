@@ -59,11 +59,77 @@ a:hover {
     border-radius: 2px;
 }
 
-.main-body
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 139px;
+    padding-bottom: 27px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    width: 582px;
+    margin: 0 auto;
+}
+
+#search-img {
+    background-image: url(https://www.google.com.tw/images/searchbox/desktop_searchbox_sprites302_hr.webp);
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-position: 0px -0px;
+    margin: 13px;
+}
+
+#search-input {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    width: 582px;
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+.search-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.search-btn button {
+    color: #5f6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 6px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+}
+
+.search-btn button:focus {
+    outline: none;
+    border: 1px solid teal;
+}
+
+.search-btn button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
 
 .footer {
     font-size: 13px;
-    font-family: sans-serif;
+    font-family: Arial;
     display: flex;
     justify-content: center;
 }
