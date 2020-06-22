@@ -1,6 +1,8 @@
 # google-homepage
 [Odin] HTML and CSS Learning: Replication of the design for the Google Homepage
 
+> See it live on [pklepa.github.io/google-homepage](https://pklepa.github.io/google-homepage/)
+
 # objectives
 The main objective of this project is to familiarize and apply the following:
 - First usage of HTML
